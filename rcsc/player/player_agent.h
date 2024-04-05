@@ -228,11 +228,6 @@ public:
     */
     bool doTurn( const AngleDeg & moment );
 
-    /*!
-      \brief register catch command. catch direction is automatically calculated.
-      \return true if successfully registered.
-    */
-    bool doCatch();
 
     /*!
       \brief register move command
