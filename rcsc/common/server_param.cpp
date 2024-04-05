@@ -49,16 +49,16 @@
 namespace rcsc {
 
 const int    ServerParam::DEFAULT_MAX_PLAYER = 11;
-const double ServerParam::DEFAULT_PITCH_LENGTH = 105.0;
-const double ServerParam::DEFAULT_PITCH_WIDTH = 68.0;
+const double ServerParam::DEFAULT_PITCH_LENGTH = 45;
+const double ServerParam::DEFAULT_PITCH_WIDTH = 28;
 const double ServerParam::DEFAULT_PITCH_MARGIN = 5.0;
 const double ServerParam::DEFAULT_CENTER_CIRCLE_R = 9.15;
 const double ServerParam::DEFAULT_PENALTY_AREA_LENGTH = 16.5;
 const double ServerParam::DEFAULT_PENALTY_AREA_WIDTH = 40.32;
 const double ServerParam::DEFAULT_PENALTY_CIRCLE_R = 9.15;
 const double ServerParam::DEFAULT_PENALTY_SPOT_DIST = 11.0;
-const double ServerParam::DEFAULT_GOAL_AREA_LENGTH = 5.5;
-const double ServerParam::DEFAULT_GOAL_AREA_WIDTH = 18.32;
+const double ServerParam::DEFAULT_GOAL_AREA_LENGTH = 3;
+const double ServerParam::DEFAULT_GOAL_AREA_WIDTH = 6;
 const double ServerParam::DEFAULT_GOAL_DEPTH = 2.44;
 const double ServerParam::DEFAULT_CORNER_ARC_R = 1.0;
 //const double ServerParam::DEFAULT_KICK_OFF_CLEAR_DISTANCE = ServerParam::CENTER_CIRCLE_R;
@@ -67,7 +67,7 @@ const double ServerParam::DEFAULT_GOAL_POST_RADIUS = 0.06;
 const double ServerParam::DEFAULT_WIND_WEIGHT = 10000.0;
 
 
-const double ServerParam::DEFAULT_GOAL_WIDTH = 14.02;
+const double ServerParam::DEFAULT_GOAL_WIDTH = 6;
 const double ServerParam::DEFAULT_INERTIA_MOMENT = 5.0;
 
 const double ServerParam::DEFAULT_PLAYER_SIZE = 0.3;
